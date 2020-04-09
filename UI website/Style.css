@@ -1,0 +1,130 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Pacifico&family=Righteous&family=Roboto+Condensed:ital@0;1&family=Ubuntu:wght@300&display=swap');
+
+
+
+body{
+        padding: 0%;
+        margin: 0%;
+        font-family: 'Lato';
+    }
+    
+.navbar-brand{
+        font-family: 'Pacifico';
+        font-size: 35px;
+        color: lightcoral !important;
+    }
+.nav-link{
+
+    font-size:16px;
+    margin: 15px;
+    color: black !important;
+    font-family: 'Roboto Condensed';
+
+
+}
+.nav-link:hover{
+    color: #00E8E8 !important;
+
+}
+.active.nav-link{
+    color: #00E8E8 !important;
+}
+
+.menu-right-btn{
+    padding: 13px 46px;
+    margin-right: 4%;
+    background-color: transparent;
+    transition: all 300ms ease-in;
+
+}
+.menu-right-btn:hover{
+    color: white;
+    background-color: #00E8E8;
+}
+
+.site-content{
+    background-image: url('Stock/bandwidth-close-up-computer-connection-1148820.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+.site-title, .site-desc{
+    color: #000000;
+	text-shadow: 0 2px white, 0 3px #777;
+    font-family: 'Righteous';
+}
+.site-title{
+    margin-top: 30%;
+    margin-bottom: 6%;
+    font-size: 50px;
+
+}
+
+.site-desc{
+    font-size: 14px;
+    padding-left: 15%;
+}
+
+.site-btn1{
+    margin-left: 20%;
+    background-color: black;
+    color: white;
+
+}
+.site-btn2{
+    background-color: white ;
+
+}
+.site-btn1, .site-btn2{
+    margin-top: 5%;
+    margin-bottom: 40%;
+}
+
+.section-1 .heading-1{
+    margin-top: 8%;
+
+}
+.section-1 .heading-2{
+    margin-top: 5%;
+    font-size: 39px;
+}
+.section-1 .para-1{
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+    
+}
+.section-1 .cardtext, .para-1{
+    color: rgb(0, 0, 0.59);    
+}
+.section-1{
+    margin-bottom: 8%;
+}
+
+.section-2 .container-fluid{
+    background-image: url('Stock/white-headphone-1037992.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.section-2 .heading-1{
+    margin-top: 20%;
+    margin-bottom: 4%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    width: 80%;
+}
+.section-2 .para{
+    width: 80%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    margin-bottom: 7%;
+
+}
+.section-2 .bth{
+    margin-bottom: 15%;
+    width: 30%;
+    padding: 2% 5%;
+
+}
